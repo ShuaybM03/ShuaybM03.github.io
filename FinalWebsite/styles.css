@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    color: #222222;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+nav {
+    background-color: #163172;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #3b589b;
+    color: #000000;
+}
+
+nav ul li a.active {
+    color: #000000;
+}
+
+nav ul li a.active:hover {
+    color: #000000;
+}
+
+main {
+    width: 60%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+article h2 {
+    color: #1f3c88;
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.columns {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.float-image {
+    float: right;
+    width: 190px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+figure {
+    clear: both;
+    margin: 18px auto 14px;
+    text-align: center;
+}
+
+figure img {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #999999;
+}
+
+figcaption {
+    max-width: 420px;
+    margin: 8px auto 0;
+    text-align: center;
+    font-style: italic;
+}
+
+ul.content-list {
+    padding-left: 25px;
+}
+
+ol.content-list {
+    padding-left: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #444444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #dbe4ff;
+}
+
+blockquote {
+    background-color: #eef3ff;
+    border-left: 5px solid #1f3c88;
+    margin: 16px 0 8px;
+    padding: 12px 15px;
+    font-style: italic;
+}
+
+footer {
+    background-color: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Development - Game Design</title>
+    <meta name="description" content="A five page website about game development.">
+    <link rel="stylesheet" href="styles.css">
+    <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <header>
+        <h1>Game Development</h1>
+        <p>Exploring the creative and technical sides of making games.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="page1.html">Home</a></li>
+            <li><a href="page2.html" class="active">Game Design</a></li>
+            <li><a href="page3.html">Art & Animation</a></li>
+            <li><a href="page4.html">Programming</a></li>
+            <li><a href="page5.html">Audio</a></li>
+        </ul>
+    </nav>
+
+<main>
+    <article>
+        <h2>Game Design</h2>
+
+        <img src="images/gamedesign1.jpg" alt="Sketches and notes for game design" class="float-image">
+
+        <div class="columns">
+            <p>
+                Game design focuses on rules, mechanics, objectives, and player choices. Designers decide how
+                players interact with the world, what goals they pursue, and what makes the experience enjoyable.
+            </p>
+
+            <p>
+                Strong design creates a meaningful gameplay loop. This loop is the repeated pattern of actions
+                a player performs, such as exploring, collecting rewards, and upgrading abilities.
+            </p>
+        </div>
+
+        <figure>
+            <img src="images/gamedesign2.jpg" alt="Game design planning materials">
+            <figcaption>Designers organize systems, mechanics, and player goals.</figcaption>
+        </figure>
+
+        <h3>Important Parts of Game Design</h3>
+        <ul class="content-list">
+            <li>Core gameplay loop</li>
+            <li>Challenge and reward balance</li>
+            <li>Level progression</li>
+            <li>Player feedback</li>
+        </ul>
+
+        <blockquote>
+            Good game design gives players meaningful choices and clear feedback.
+        </blockquote>
+    </article>
+</main>
+
+    <footer>
+        <p>Final Website Project - Shuab Mohamed</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    
+    <script>
+        VANTA.NET({
+            el: "body",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            color: 0x3131e3,
+            backgroundColor: 0xebebeb
+        })
+    </script>
+</body>
+</html>
